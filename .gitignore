@@ -1,0 +1,12 @@
+## environment files
+*.env
+*.pyc
+
+## folders
+uploads
+staticfiles
+*__pycache__
+
+## files
+restart_database.py
+db.sqlite3
