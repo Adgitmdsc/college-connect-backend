@@ -51,7 +51,6 @@ class Student(models.Model):
         return f"{self.student_user.__str__()} | {self.student_user.identifier}-{self.student_identifier}"
 
 class Faculty(models.Model):
-    _id = models.AutoField(primary_key=True, editable=False)
     created_at = models.DateTimeField(default=timezone.now, editable=False)
     updated_at = models.DateTimeField(default=timezone.now, editable=False)
 
